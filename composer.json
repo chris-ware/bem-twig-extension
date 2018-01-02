@@ -1,0 +1,25 @@
+{
+    "name": "chris-ware/bem-twig-extension",
+    "description": "Twig function that inserts static classes in BEM methodology.",
+    "license": "MIT",
+    "homepage": "https://github.com/chris-ware/bem-twig-extension#README",
+    "authors": [
+        {
+            "name": "Chris Ware",
+            "email": "chris.ware93@yahoo.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/chris-ware/bem-twig-extension/issues",
+        "source": "https://github.com/chris-ware/bem-twig-extension"
+    },
+    "require": {
+        "twig/twig": "^2.0 | ^1.12"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Bem\\Twig\\": "src/"
+        }
+    }
+}
